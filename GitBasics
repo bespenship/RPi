@@ -1,0 +1,24 @@
+GIT basic workflow (solo project)
+  Navigate to parent directory
+  [git status] use this frequently to see that everything goes as expected for each step in the process
+  [git add <filename>] for each file - avoid using [git add *] to promote frequent synchronization and not add unintended files (i.e. keys)
+  [git status]
+  [git commit -m "Commit message"] commits changes to HEAD of local working copy
+  [git status]
+  [git push origin master] sends changes to remote repository
+  [git status]
+
+
+GIT basic workflow (group project)
+
+
+GIT basic actions
+
+1) Create a new repository
+  create directory -> open directory -> [git init]
+2) Checkout a repository
+  navigate to parent directory -> [git clone /path/to/repository/...]
+3) add & commit
+  navigate to working folder -> [git add <filename>] propose changes (add to Index) -> [git commit -m "Commit message"]
+4) push changes to your github
+  [git push origin master]
